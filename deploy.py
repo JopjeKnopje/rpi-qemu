@@ -1,3 +1,5 @@
+from platform import system
+
 from pyinfra.context import host
 from pyinfra.operations import apt, files
 
